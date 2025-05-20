@@ -27,11 +27,11 @@ namespace MethodsOverloadsAndDefaultValue
             Age = age;
             Addres = addres;
         }
-        public void PrintInfo()
-        {
-            Console.WriteLine($"Name: {Name}, Age: {Age}, Address: {Addres}");
-        }
-        public void PrintInfo(string extraInfo)
+        //public void PrintInfo()
+        //{
+        //    Console.WriteLine($"Name: {Name}, Age: {Age}, Address: {Addres}");
+        //}
+        public void PrintInfo(string extraInfo = "Hei he hei")
         {
             Console.WriteLine(Name + extraInfo);
         }
